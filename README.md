@@ -1,4 +1,5 @@
 # GitHub Actions for Terraform CI/CD in AWS using OIDC Authentication
+![Static Badge](https://img.shields.io/badge/terraform-v1.5.6-blue)![Static Badge](https://img.shields.io/badge/hashicorp%2Faws-v5.14.0-yellow)![Static Badge](https://img.shields.io/badge/git-v2.39.2-purple)
 
 This repository serves as a guide to configure GitHub Actions for continuous integration and continuous deployment (CI/CD) of Terraform infrastructure to AWS. The CI/CD pipeline is designed to deploy resources to different environments based on the branch being deployed. Additionally, this repository will help configure OpenID Connect (OIDC) for authentication, providing a more secure and scalable way to manage access to AWS resources.
 
